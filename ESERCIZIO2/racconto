@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1,0">
+ <title>Racconto</title>
+ <link rel="stylesheet" type="text/css" href="stile.css">
+</head>
+ <body>
+  <header class="header">
+  <h1>Ospiti e letti</h1>
+  </header>
+   <p class="orange">La casa in cui vivo con la <i>mia famiglia</i> è  piccola ma accogliente, che sia piccola è un dato di fatto, che sia accogliente invece lo hanno decretato in massa i miei parenti.<br/>
+
+   Questo fine settimana,<b> ad esempio</b>, arrivano alcuni <i>cugini</i> di non so quale grado a farci visita.</p>
+   <p class="pink">
+   L'arrivo di questi ospiti<b> segna inevitabilmente l'inizio di spossanti</b> giochi di potere all'interno della famiglia, doppi e tripli giochi sono del tutto naturali.<br/>
+
+   L'obiettivo ultimo è quello di accaparrarsi un letto decente per la notte.</p>
+   <p class="orange">A causa delle mie pessime doti diplomatiche e di una cronica incapacità di negoziare alcunchè spesso sono proprio io ad aggiudicarmi il peggiore letto della casa...</p>
+ </body>
+</html>
+
+
+
+
+
+

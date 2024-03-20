@@ -1,0 +1,16 @@
+body {background-color: rgb(233, 194, 135);
+}
+h1 {font-size: 32px;
+    color:rgb(99, 34, 10);
+}
+p {font-size: 13px;
+   text-align: justify; 
+   line-height: 1.5;
+   font-family: Arial, Helvetica, sans-serif;
+   color:rgb(99, 34, 10);
+}
+figure {margin:0px;
+}
+img {
+    height: 35px;
+}
