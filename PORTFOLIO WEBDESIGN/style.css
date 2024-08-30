@@ -5,15 +5,19 @@ body {
     background-color: #000000;
     color: #000000;
 }
+
 .pink {
     background-color: #ECB0AF;
 }
+
 .blue {
     background-color: #A1C5F5;
 }
+
 .white {
-    color:#fff;
+    color: #fff;
 }
+
 .body-flex {
     display: flex;
     flex-direction: column;
@@ -29,7 +33,7 @@ main {
     align-content: center;
 
     .home-content {
-        padding: 10px;
+        padding: 25px 10px;
     }
 
     h1 {
@@ -70,24 +74,11 @@ main {
 
     .foto-foreground {
         position: absolute;
-        height: 35.5vh;
+        height: 40vh;
     }
 
-    .social-container {
-        display: flex;
-        justify-content: space-evenly;
 
-        img {
-           /* filter: invert(1);*/
-            max-width: 2.5rem;
-        }
-    }
 
-    .social-container :hover {
-        img {
-            filter: invert(50%);
-        }
-    }
 
     .the-content {
         max-width: 90vw;
@@ -101,7 +92,9 @@ main {
 }
 
 header {
-    .other-pages, .other-pages:visited {
+
+    .other-pages,
+    .other-pages:visited {
         color: #535353;
     }
 
@@ -163,8 +156,8 @@ footer {
 .contact-container {
     height: 70vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .contact-left {
@@ -172,6 +165,8 @@ footer {
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    align-items: center;
+
 }
 
 .contact-left-title h2 {
@@ -179,6 +174,7 @@ footer {
     color: #000000;
     font-size: 40px;
     margin-bottom: 5px;
+   
 }
 
 .contact-left-title hr {
@@ -257,7 +253,7 @@ footer {
     text-align: center;
     font-size: 50px;
     display: none;
-    color:#fff;
+    color: #fff;
 }
 
 @media (min-width: 800px) {
@@ -290,7 +286,7 @@ footer {
 
 .controls {
     z-index: 2;
-    
+
 }
 
 .arrow {
@@ -341,6 +337,26 @@ footer {
     right: 10px;
 }
 
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
     color: inherit;
+}
+.social-box{
+    img {
+     display: flex;
+     justify-content: space-between;
+        max-width: 2.5rem;
+        padding: 1.5rem;
+}
+}
+
+
+.overlay {
+    transform: scale(1);
+    transition: .3s ease;
+}
+.social-box:hover .overlay {
+    transform: scale(1.5);
 }
